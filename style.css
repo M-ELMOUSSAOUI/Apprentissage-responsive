@@ -3,8 +3,10 @@
   --base-shade-1: #f6921e;
   --white-shade-1: #ffffff;
   --white-shade-2: #d7e1f3;
-  --black-shade-1: #232323;
-  --black-shade-2: #676a8b;
+  --white-shade-6: #d2def3;
+  --black-shade-1: #ffffff;
+  --black-shade-2: #d2def3;
+  --black-shade-3: red;
   --grad-color-1: 251, 211, 165;
   --grad-color-2: 151, 127, 99;
 
@@ -264,7 +266,7 @@ section.hero {
 }
 .testimonial h2,
 .testimonial .section-desc {
-  color: var(--white-shade-1);
+  color: var(--white-shade-3);
 }
 .testimonial .row {
   align-items: stretch;
@@ -294,6 +296,7 @@ section.hero {
 }
 .testimonial .column p {
   margin: 4rem 0;
+  color : var(--white-shade-3);
   flex-grow: 1;
 }
 /*------ Section: Download App ------*/
@@ -348,7 +351,7 @@ section.hero {
 }
 /*------ Section: Footer ------*/
 footer {
-  background-color: var(--black-shade-1);
+  background-color: black ;
 }
 footer h3 {
   margin: 0;
@@ -380,6 +383,7 @@ footer .row {
   color: var(--white-shade-1);
 }
 footer p {
+  color: var(--white-shade-6);
   text-align: center;
 }
 

@@ -124,5 +124,6 @@
   nav ul {
     top: 65.18px;
     height: calc(100vh - 65.18px);
+    background-color: black;
   }
 }
