@@ -1,6 +1,6 @@
 /*------ Variables ------*/
 :root {
-  --base-shade-1: #f6921e;
+  --base-shade-1: #fde618;
   --white-shade-1: #ffffff;
   --white-shade-2: #d7e1f3;
   --white-shade-6: #d2def3;
@@ -114,7 +114,7 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 nav ul {
   list-style: none;
@@ -129,6 +129,7 @@ nav a {
 nav a#logo {
   color: var(--black-shade-1);
   font-weight: 700;
+  display: flex;
 }
 nav a#logo img {
   width: 50%;
@@ -148,6 +149,7 @@ nav ul.active {
 .sticky {
   background-color: #1a1a1a;
   box-shadow: 0 2rem 1.5rem rgba(0, 0, 0, 0.05);
+  height:13%;
 }
 .sticky nav ul a,
 .sticky nav a#logo,
@@ -214,14 +216,15 @@ section.hero {
   background-color: var(--base-shade-1);
 }
 .features .column:hover h3 {
-  color: var(--white-shade-1);
+  color: var(--black);
 }
 .features .column:hover p {
-  color: var(--white-shade-2);
+  color: grey;
 }
 .features .column:hover i {
-  background-color: var(--white-shade-1);
+  background-color:black;
   color: var(--base-shade-1);
+  transition: ease-out 500ms;
 }
 /*------ Section: Courses ------*/
 .courses .row {
