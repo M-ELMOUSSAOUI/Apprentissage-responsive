@@ -217,7 +217,7 @@ section.hero {
 }
 .features .column:hover h3 {
   color: var(--black);
-}
+ }
 .features .column:hover p {
   color: grey;
 }
