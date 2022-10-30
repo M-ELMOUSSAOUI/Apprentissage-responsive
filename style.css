@@ -158,7 +158,7 @@ nav ul.active {
 }
 /*-- Link Hover Effect --*/
 nav ul a:hover {
-  color: #f6921e;
+  color: #010001;
 }
 .sticky nav ul a:hover {
   color: var(--base-shade-1);
