@@ -54,7 +54,7 @@ footer {
   width: 100%;
 }
 .section-desc {
-  text-align: center;
+  text-align: justify;
   margin: 2rem 0 6rem 0;
 }
 h1 {
@@ -195,7 +195,7 @@ section.hero {
   border-radius: var(--border-radius-1);
 }
 .features .column p {
-  text-align: center;
+  text-align: justify;
 }
 .features h3 {
   margin: 3rem 0;
